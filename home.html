@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href="style1.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <img src = "images/menu.png" class="logo">
+                <nav>
+                    <ul id="menuList">
+                        <li><a href="about.html">About  </a></li>
+                        <li><a href="index.html">Sort  </a></li>
+                    </ul>
+                </nav>
+                <img src = "images/setting.png" class="menu-icon" onclick="togglemenu()">
+            </div>
+
+
+            <div class="row">
+                <div class="col-1">
+                    <div class="content">
+                            
+                            <div id="typing">SORTING <span>VISUALIZER</span>
+                            </div>
+                            <div id="crow">|</div>
+
+                    </div>
+                    
+                    <h3>Sorting algorithms are used to sort a data structure according to a specific order relationship, such as numerical order or lexicographical order.
+                        
+                    </h3>
+                    <button id="button">Sort<img src="images/arrow.png"></button>
+                    <script>
+                        let my_url = "index.html";
+                        document.getElementById("button").onclick = function(){
+                            window.location.replace(my_url);
+                        }
+                    </script>
+                </div>
+                <div class ="col-2">
+                    <img src="images/template.png" class="controller">
+                    <div class = "color-box"></div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var menuList = document.getElementById("menuList");
+            menuList.style.maxHeight = "0px";
+
+            function togglemenu()
+            {
+                if(menuList.style.maxHeight = "0px")
+                {
+                    menuList.style.maxHeight = "130px";   
+                }
+                else
+                {
+                    menuList.style.maxHeight = "0px";
+                }
+            }
+        </script>
+
+    </body>
+    </html>
