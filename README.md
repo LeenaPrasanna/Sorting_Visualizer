@@ -12,7 +12,7 @@
 
      Web Technologies : HTML, CSS, Java Script
 
-     IDE Used : VSCode
+     IDE Used : Sublime Text3
 ## System Architechture
 
 ![App Screenshot](https://github.com/LeenaPrasanna/Sorting_Visualizer/blob/master/System_Architecture.png?raw=true)
